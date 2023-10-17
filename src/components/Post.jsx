@@ -19,7 +19,7 @@ export default function Post({post}) {
                     <br /><br />
                     <div className="columns is-justify-content-space-between has-text-grey is-vcentered px-4">
                         <span>{post.createdAt}</span>   
-                        <span className="columns is-vcentered"><i class="fa-regular fa-eye ml-2 mr-1"></i> {post.views}</span>
+                        <span className="columns is-vcentered"><i className="fa-regular fa-eye ml-2 mr-1"></i> {post.views}</span>
                     </div>
                 </div>
             </div>
