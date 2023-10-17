@@ -4,7 +4,7 @@ import Navbar from "./Navbar"
 export default function Layout({children,initialPosts , setPosts}) {
     return(
         <>
-        <Navbar/>
+        <Navbar initialPosts = {initialPosts} setPosts = {setPosts}/>
         <div className="section">
             {children}
         </div>
